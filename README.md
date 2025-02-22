@@ -7,6 +7,8 @@ This project implements a content-based recommendation system that suggests movi
 - Preprocessing:
   - Randomly sample 500 rows to meet the challenge’s small dataset requirement (100–500 rows).
   - Dropped rows with missing `Plot` values.
+  
+  **Note**: The system samples 500 movies from the original kaggle dataset to meet the challenge’s size constraint (100–500 rows). This random sampling may exclude some genres (e.g., space-action comedies), which could make search results seem less accurate for certain queries. For broader coverage, the full dataset (~35K rows) could be used, but this version prioritizes simplicity and efficiency.
 
 ## Setup
 1. Prerequisites:
